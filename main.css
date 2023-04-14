@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color:#ffffff;
+}
+
+.container{
+    margin: 40px auto;
+    background-color: #48901A;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin: 20px 0px;   
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.transparencia{
+    background: rgba(235, 212, 212, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.245);
+}
+
+.formulario{
+    max-width: 580px;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+header h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header img{
+    height: 48px;
+}
+
+form{
+    font-size: 14px;
+    margin: 10px auto 40px auto;
+}
+.btn{
+    height: 40px;
+    width: 408px;
+    margin: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: rgb(10, 98, 54);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #e2e6f3;
+    
+}
+button img{
+    height: 24px;
+}
+button:hover{
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 98, 54);
+}
+
+table{
+    text-align: center;
+}
+
+table th{
+    color: #003110;
+    border-bottom: 1px solid #ffffff69;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table td{
+    border-bottom: 1px solid #ffffff69;
+    padding: 2px 0;
+}
+
+
+
+form input{
+    height: 24px;
+    width: 90%;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    margin: 4px 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e2e6f3;
+    color: #312626;
+}
+form input[type="text"]{
+    margin-right: 4px;
+}
+
+form input[type="tel"]{
+    margin-left: 4px;
+}
+
+span{
+   color: #312626;
+}
+
+tfoot, tfoot span{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 8px;
+}

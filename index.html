@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div id="cabecalho">
+                <img src="./img/contact.png" alt="ícone de agenda de contatos">
+                <h1>Agenda de Contatos</h1>
+            </div>
+        </header>
+        <div class="formulario transparencia">
+            
+            <form id="formul">
+
+                <div class="btn ">
+                    <button type="submit" ><img src="./img/add.png" alt="Adicionar contato"></button>
+                </div>
+                <table cellspacing="0" >
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Telefone 
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="recebeNome" type="text" placeholder="Insira o nome" required/>
+                            </td>
+                            <td>
+                                <input id ="recebeNumTel" type="tel" placeholder="Insira o telefone" required/>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="linhas">
+                       <!-- linhas no js 
+                            <tr>
+                            <td>
+                                <span>
+
+                                </span>
+                            </td>
+                            <td>
+                                <span>
+                                    
+                                </span>
+                            </td>
+                        </tr>
+                       -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                Contatos Cadastrados:
+                            </td>
+                            <td>
+                               <span id="numCadastrado">0</span>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+            
+        </div>
+        <footer>
+            &copy; 2023 - Desenvolvido por José Adriano Junior
+        </footer>
+     
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
