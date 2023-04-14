@@ -14,11 +14,11 @@ let contador = 0
 function recebeInput(){
     if(listaNumeros.includes(parseInt(numTel.value)) || listaNomes.includes(nome.value)){ // verifica se já existe esse numero e ou nome registrados
         if(listaNumeros.includes(parseInt(numTel.value)) && listaNomes.includes(nome.value)){
-            alert(`O nome e número já existem na lista!`)
+            alert(`O nome e número já existem na agenda!`)
         }else if(listaNomes.includes(nome.value)){
-            alert(`O nome já existe na lista!`)
+            alert(`O nome já existe na agenda!`)
         }else{
-            alert(`O número já existe na lista!`)
+            alert(`O número já existe na agenda!`)
         }
         
     }else{
